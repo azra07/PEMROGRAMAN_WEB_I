@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+    <center>
+        <table border="2" width="500" bordercolor="grey">
+            <tr align="center">
+                <th width="400" height="70" bgcolor="skyblue">
+                    <font face="arial" color="red" font size="5">Pendaftaran Kursus</font>
+                </th>
+            </tr>
+
+            <tr>
+                <td width="400" height="70" bgcolor="grey">
+                    <font face=arial black font size="4"><b>Data Diri</b></font>
+                    <br> </br>
+                    <font ty="time new roman" size="4">
+                        Nama
+                        <input type="text" name="nama" style="margin-left: 134px;">
+                        <br>
+                        Nim
+                        <input type="text" name="nim" style="margin-left: 145px;">
+                        <br>
+                        Email
+                        <input type="text" name="email" style="margin-left: 134px;">
+                        <br>
+                        Tanggal Lahir
+                        <input type="date" name="ttl" style="margin-left: 75.5px;">
+                        <br>
+
+                        Jenis Kelamin
+                        <input type="radio" name="jenis_kelamin" value="L" style="margin-left: 73.5;"> Laki-laki
+                        <br>
+                        <input type="radio" name="jenis_kelamin" value="P" style="margin-left: 180;"> Perempuan
+                        <br>
+
+                        Pilih Program Kursus : 
+                        <input type="checkbox" name="hobi_1" value="C#" style="margin-left: 10;"> C#
+                        <br>
+                        <input type="checkbox" name="hobi_2" value="Java" style="margin-left: 180;"> Java
+                        <br>
+                        <input type="checkbox" name="hobi_3" value="SQL" style="margin-left: 180;"> SQL
+                        <br>
+                        <input type="checkbox" name="hobi_4" value="HTML dan PHP" style="margin-left: 180;"> HTML dan PHP
+                        <br>
+                        Pilihan Hari/Jam Kursus
+                        <select>
+                            <option value="1"> Senin - Rabu/09.00 - 11.00</option>
+                            <option value="2"> Kamis - Sabtu/09.00 - 11.00</option>
+                        </select>
+                        <br><br><br><br>
+                    </font>
+                </td>
+            </tr>
+
+            <tr bgcolor="salmon">
+                <td>Komentar Anda 
+                    <br>
+                    <textarea name="deskripsi" cols="45" rows="5" ></textarea>
+                    <br></br>
+                    <form>
+                        <input type="submit" value="Kirim" name="submit">
+                        <input type="reset" value="Ulangi" name="reset">
+                        <input type="button" value="Batal" name="Cancel">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </center>
+    </body>
+</html>
